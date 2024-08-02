@@ -95,4 +95,3 @@ class ProductResource extends Resource
         return auth()->user()->user_type === 'Seller';
     }
 }
-// pinix commit
