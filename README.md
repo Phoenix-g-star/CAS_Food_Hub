@@ -64,3 +64,17 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+CLONING A LARAVEL PROJECT
+https://stackoverflow.com/questions/38602321/cloning-laravel-project-from-github
+
+1. Clone your project
+2. Go to the folder application using <code>cd</code> command on your cmd or terminal
+3. Run <code>composer</code> install on your cmd or terminal
+4. Copy <u>.env.example</u> file to <u>.env</u> on the root folder. You can type <code>copy .env.example .env</code> if using command prompt Windows or <code>cp .env.example .env</code> if using terminal, Ubuntu
+5. Open your <u>.env</u> file and change the database name (<code>DB_DATABASE</code>) to whatever you have, username (<code>DB_USERNAME</code>) and password (<code>DB_PASSWORD</code>) field correspond to your configuration.
+6. Run <code>php artisan key:generate</code>
+7. Run <code>php artisan migrate</code>
+8. Run <code>php artisan serve</code>
+9. Go to <a href="http://localhost:8000">http://localhost:8000/</a>
