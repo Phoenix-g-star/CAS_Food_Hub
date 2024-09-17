@@ -77,4 +77,9 @@ https://stackoverflow.com/questions/38602321/cloning-laravel-project-from-github
 6. Run <code>php artisan key:generate</code>
 7. Run <code>php artisan migrate</code>
 8. Run <code>php artisan serve</code>
-9. Go to <a href="http://localhost:8000">http://localhost:8000/</a>
+9. Install <code>Node JS</code> by downloading executionable file (.exe) or opening Powershell and running <code>winget install -e --id OpenJS.NodeJS</code>
+10. Run <code>npm install</code>
+11. Run <code>npm run dev</code>
+12. Seed the table by running <code>php artisan db:seed</code>
+13. Check other seeders from  <u>database\seeders\</u> and run <code>php artisan db:seed --class=AdminUserSeeder</code> (or depending on the class/name of the existing seeder)
+13. Go to <a href="http://localhost:8000">http://localhost:8000/</a>
